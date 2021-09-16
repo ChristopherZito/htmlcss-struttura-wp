@@ -1,3 +1,5 @@
+/* generali */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,5 +9,68 @@
 .debug::after {
     content: "";
     display: table;
-    clear: both;
+    clear: both
+    ;
 }
+
+body {
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* header */
+
+header {
+    background-color: palevioletred;
+    height: 100px;
+}
+
+/* corpo pagina */
+
+/* box superiore */
+.boxup {
+    margin: 10px 0px;
+    /* regole di debug */
+    background-color: gold;
+    height: 400px;
+}
+
+/* box inferiore */
+.boxdown {
+    margin: 10px 0px;
+    /* regole di debug */
+    background-color: rgba(0, 183, 255, 0.986);
+    height: 600px;
+}
+
+.subtitle {
+    /* regole di debug */
+    background-color: rgba(0, 255, 242, 0.986);
+    height: 100px;
+}
+
+aside, .middle {
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* regole di debug */
+    background-color: rgba(0, 255, 242, 0.986);
+    height: 450px;
+}
+.sidesx {
+    float: left;
+}
+
+.sidedx {
+    float: right;
+}
+
+.middle {
+    width: 55%;
+    margin: 15px 30px;
+    float: left;
+}
+
+footer {
+    background-color: indigo;
+    height: 50px;
