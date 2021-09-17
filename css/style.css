@@ -40,7 +40,7 @@ header {
     margin-bottom: 10px;
     /* regole di debug */
     background-color: rgba(0, 183, 255, 0.986);
-    height: 500px;
+    /* height: 500px; */
 }
 
 .subtitle {
