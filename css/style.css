@@ -13,7 +13,7 @@
     ;
 }
 
-body {
+#container {
     margin: 20px auto;
     width: 80%;
 }
@@ -29,7 +29,7 @@ header {
 
 /* box superiore */
 .boxup {
-    margin: 10px 0px;
+    margin: 30px 0px;
     /* regole di debug */
     background-color: gold;
     height: 400px;
@@ -37,38 +37,36 @@ header {
 
 /* box inferiore */
 .boxdown {
-    margin: 10px 0px;
+    margin-bottom: 10px;
     /* regole di debug */
     background-color: rgba(0, 183, 255, 0.986);
-    height: 600px;
+    height: 500px;
 }
 
 .subtitle {
+    margin-bottom: 30px;
     /* regole di debug */
     background-color: rgba(0, 255, 242, 0.986);
     height: 100px;
 }
 
-aside, .middle {
-    width: 20%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+aside {
+    width: 15%;
+    float: left;
     /* regole di debug */
     background-color: rgba(0, 255, 242, 0.986);
-    height: 450px;
-}
-.sidesx {
-    float: left;
+    height: 500px;
 }
 
-.sidedx {
-    float: right;
-}
 
 .middle {
-    width: 55%;
-    margin: 15px 30px;
+    width: 60%;
+    margin: 0px 5%;
     float: left;
+     /* regole di debug */
+     background-color: rgba(0, 255, 242, 0.986);
+     height: 500px;
+    
 }
 
 footer {
